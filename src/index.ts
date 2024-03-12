@@ -3,7 +3,7 @@ import cors from "cors";
 import "dotenv/config";
 import mongoose from "mongoose";
 
-import userRoutes from "./routes/users";
+import userRoutes from "./routes/MyUserRoute";
 
 mongoose
   .connect(process.env.DB_HOST as string)
